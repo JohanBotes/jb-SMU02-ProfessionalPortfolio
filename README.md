@@ -1,2 +1,2 @@
-# jb-SMU02-ProfessionalPortfolio ZHTMl CSS
+# jb-SMU02-ProfessionalPortfolio HTML CSS
 Professional Portfolio website front-end
