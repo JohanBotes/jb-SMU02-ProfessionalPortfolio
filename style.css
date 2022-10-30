@@ -1,18 +1,17 @@
 *     {
     margin: 0px;
     padding: 0px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }  
 
 img {
     width: 100%;
-    height: 220px;
+    height: 300px;
     margin: 0px;
 }
   
 body {
-    margin-left: 0px;
-    margin-right: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white; 
     -webkit-background-size: cover;
@@ -29,8 +28,8 @@ header  {
     margin-left: 0px;
     margin-right: 0px;
     justify-content: space-between;
-    padding-top:15px;
-    padding-bottom:15px;
+    padding-top:0px;
+    padding-bottom:0px;
     margin-bottom: 0px;
     text-decoration: none;
   }
@@ -42,24 +41,24 @@ header  {
       padding-left: 20px;
       padding-right: 20px;
       padding-top: 5px;
-      padding-bottom: 5px;
+      padding-bottom: 10px;
       margin-left: 20px;
       margin-right: 20px;
+      margin-bottom: 10px;
+      margin-top: 10px;
       text-align: center;
       background-color: rgba(0, 247, 251, 0.902);
       text-decoration: none;
-      font-size: 40px;
       font-weight: bold;
-      color: white;
-      text-decoration: none;
   }
   
-  .homenav:link {
+.homenav:link {
     text-decoration: none;
     color: rgb(47, 45, 58);
+    font-size: 40px;
   }
   
-  .homenav:visited {
+.homenav:visited {
     text-decoration: none;
     color: rgb(47, 45, 58);
   }
@@ -92,6 +91,7 @@ header  {
       text-decoration: none;
       font-size: 20px;
       margin-left: 40px;
+      margin-top: 15px;
       line-height: 1.2;
     }
 
@@ -106,16 +106,16 @@ header  {
   /* Make the image responsive */
 .container img {
     width: 100%;
-    height: auto;
+    height: 300px;
   }
   
   /* Style the button and place it in the middle of the container/image */
 .container .btn {
     position: absolute;
-    top: 20%;
-    left: 70%;
-    transform: translate(-0%, -100%);
-    -ms-transform: translate(-0%, -100%);
+    top: 160px;
+    right: 5px;
+    transform: translateX(-20px);
+    -ms-transform: translate(-100%, -0%);
     background-color: rgba(0, 247, 251, 0.902);
     color: rgb(47, 45, 58);
     font-size: 20px;
@@ -126,104 +126,98 @@ header  {
     line-height: 1.2;
   }
 
-.flex-container  {
-  display: flex;
-  height: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+section.grid-container1  {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding: 40px;
 }
 
-.leftContainer01  {
-  height: 400px;
-  width: 250px;
-  background-color: lightblue;
-  padding: 20px;
-  border-right: 5px solid rgb(47, 45, 58);
+.grid-col-span-2  {
+  grid-column: span 2;
+}
+
+#aboutMe    {
+  background-color: white;
   color: rgb(47, 45, 58);
-  font-size: 40px;
   text-align: right;
+  padding: 20px;
+  padding-right: 40px;
+  border-right: 5px solid rgb(47, 45, 58);
+  font-size: 40px;
 }
 
-.rightContainer01  {
-  height: auto;
-  width: 800px;
-  background-color: lightblue;
+#aboutMe-text    {
+  background-color: white;
+  color: rgb(47, 45, 58);
+  text-align: justify;
   padding: 20px;
 }
 
-.flex-container2  {
-  display: flex;
-  height: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+section.grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding: 40px;
 }
 
-.leftContainer02  {
-    height: 400px;
-    width: 250px;
-    background-color: lightblue;
-    padding: 20px;
-    border-right: 5px solid rgb(47, 45, 58);
-    color: rgb(47, 45, 58);
-    font-size: 40px;
-    text-align: right;
+.grid-row-span-3  {
+  grid-row: span 3;
 }
 
-.rightContainer02  {
-  height: auto;
-  width: 800px;
-  background-color: lightblue;
+#myWork01   {
+  background-color: white;
+  color: rgb(47, 45, 58);
+  text-align: right;
   padding: 20px;
+  padding-right: 40px;
+  border-right: 5px solid rgb(47, 45, 58);
+  font-size: 40px;
 }
 
-.flex-container3  {
-  display: flex;
+#Horiseon   {
+  position: relative;
+  width: 100%;
+}
+
+#Horiseon img   {
+  width: 100%;
   height: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.leftContainer03  {
-    height: 400px;
-    width: 250px;
-    background-color: lightblue;
-    padding: 20px;
-    border-right: 5px solid rgb(47, 45, 58);
-    color: rgb(47, 45, 58);
-    font-size: 40px;
-    text-align: right;
+#HoriseonBtn {
+  position: absolute;
+  top: 480px;
+  left: 50px;
+  transform: translateX(-20px);
+  -ms-transform: translate(-100%, -0%);
+  background-color: rgba(0, 247, 251, 0.902);
+  color: rgb(47, 45, 58);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  line-height: 1.2;
 }
 
-.rightContainer03  {
-  height: auto;
-  width: 800px;
-  background-color: lightblue;
+footer.grid-container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding: 40px;
+}
+
+#contactMe-div  {
+  background-color: white;
+  color: rgb(47, 45, 58);
+  text-align: right;
   padding: 20px;
+  padding-right: 40px;
+  border-right: 5px solid rgb(47, 45, 58);
+  font-size: 40px;
 }
+
 
 
   /* Responsive layout - makes a two column-layout instead of four columns */
