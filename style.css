@@ -141,7 +141,6 @@ section.grid-container1  {
   background-color: white;
   color: rgb(47, 45, 58);
   text-align: right;
-  padding: 20px;
   padding-right: 40px;
   border-right: 5px solid rgb(47, 45, 58);
   font-size: 40px;
@@ -151,7 +150,7 @@ section.grid-container1  {
   background-color: white;
   color: rgb(47, 45, 58);
   text-align: justify;
-  padding: 20px;
+  border: 5px solid white;
 }
 
 section.grid-container2 {
@@ -169,28 +168,30 @@ section.grid-container2 {
   background-color: white;
   color: rgb(47, 45, 58);
   text-align: right;
-  padding: 20px;
   padding-right: 40px;
   border-right: 5px solid rgb(47, 45, 58);
   font-size: 40px;
 }
 
-#Horiseon   {
+.HoriseonContainer {
   position: relative;
   width: 100%;
+  text-align: center;
 }
 
-#Horiseon img   {
+/* Make the image responsive */
+.HoriseonContainer img {
   width: 100%;
   height: auto;
+  border: 5px solid rgba(0, 247, 251, 0.902);
 }
 
-#HoriseonBtn {
+.HoriseonContainer .HBtn {
   position: absolute;
-  top: 480px;
-  left: 50px;
-  transform: translateX(-20px);
-  -ms-transform: translate(-100%, -0%);
+  top: 81%;
+  left: 90px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   background-color: rgba(0, 247, 251, 0.902);
   color: rgb(47, 45, 58);
   font-size: 20px;
@@ -198,8 +199,84 @@ section.grid-container2 {
   padding: 12px 24px;
   border: none;
   cursor: pointer;
-  line-height: 1.2;
+  text-align: left;
 }
+
+.smaller    {
+  font-size: 14px;
+}
+
+.portfolioContainer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+/* Make the image responsive */
+.portfolioContainer img {
+  width: 100%;
+  height: auto;
+  border: 5px solid rgba(0, 247, 251, 0.902);
+}
+
+.portfolioContainer .PoBtn {
+  position: absolute;
+  top: 50%;
+  left: 105px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(0, 247, 251, 0.902);
+  color: rgb(47, 45, 58);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.smaller    {
+  font-size: 14px;
+}
+
+.passwordContainer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+/* Make the image responsive */
+.passwordContainer img {
+  width: 100%;
+  height: auto;
+  border: 5px solid rgba(0, 247, 251, 0.902);
+}
+
+.passwordContainer .PassBtn {
+  position: absolute;
+  top: 50%;
+  left: 105px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(0, 247, 251, 0.902);
+  color: rgb(47, 45, 58);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.smaller    {
+  font-size: 14px;
+}
+
+
+
+
+
+
 
 footer.grid-container3 {
   display: grid;
@@ -212,13 +289,15 @@ footer.grid-container3 {
   background-color: white;
   color: rgb(47, 45, 58);
   text-align: right;
-  padding: 20px;
   padding-right: 40px;
   border-right: 5px solid rgb(47, 45, 58);
   font-size: 40px;
 }
 
-
+#f1, #f2    {
+  text-align: center;
+  padding-top: 30px;;
+}
 
   /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
