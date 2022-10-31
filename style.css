@@ -256,6 +256,7 @@ section.grid-container2 {
   width: 100%;
   height: auto;
   border: 5px solid rgba(0, 247, 251, 0.902);
+  transition: transform .1s;
 }
 
 .portfolioContainer .PoBtn {
@@ -272,6 +273,10 @@ section.grid-container2 {
   border: none;
   cursor: pointer;
   text-align: left;
+}
+
+.PortfolioImg:hover {
+  transform: scale(1.1);
 }
 
 .smaller    {
@@ -297,6 +302,7 @@ section.grid-container2 {
   width: 100%;
   height: auto;
   border: 5px solid rgba(0, 247, 251, 0.902);
+  transition: transform .1s;
 }
 
 .passwordContainer .PassBtn {
@@ -313,6 +319,10 @@ section.grid-container2 {
   border: none;
   cursor: pointer;
   text-align: left;
+}
+
+.GenPasswordImg:hover {
+  transform: scale(1.1);
 }
 
 .smaller    {
@@ -338,6 +348,7 @@ section.grid-container2 {
   width: 100%;
   height: auto;
   border: 5px solid rgba(0, 247, 251, 0.902);
+  transition: transform .1s;
 }
 
 .codeQuizContainer .codeQuizBtn {
@@ -354,6 +365,10 @@ section.grid-container2 {
   border: none;
   cursor: pointer;
   text-align: left;
+}
+
+.CodeQuizImg:hover {
+  transform: scale(1.1);
 }
 
 .smaller    {
@@ -376,8 +391,9 @@ section.grid-container2 {
 /* Make the image responsive */
 .schedulerContainer img {
   width: 100%;
-  height: 305px;
+  height: auto;
   border: 5px solid rgba(0, 247, 251, 0.902);
+  transition: transform .1s;
 }
 
 .schedulerContainer .schedulerBtn {
@@ -394,6 +410,10 @@ section.grid-container2 {
   border: none;
   cursor: pointer;
   text-align: left;
+}
+
+.SchedulerImg:hover {
+  transform: scale(1.1);
 }
 
 .smaller    {
