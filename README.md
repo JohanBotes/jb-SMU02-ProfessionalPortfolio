@@ -4,17 +4,17 @@ A portfolio of work showcase ones skills and talents to employers and/or prospec
 An effective portfolio highlights ones strongest work as well as the thought processes behind it. <br>
 Having portfolios with deployed web applications (meaning they are live on the web) are typically very successful in career search. _This last point can't be stressed enough:_ **having several deployed projects is a minimum requirement to receive an initial interview at many companies**.
 
-# Task
+## Task
 
 AS AN employer
 - I WANT to view a potential employee's deployed portfolio of work samples
   - SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-# Additional Functionality added - Outside of what was requested
+## Additional Functionality added - Outside of what was requested
 
 - Modal linked to Resume top meny item
 
-# Acceptance Criteria
+## Acceptance Criteria
 
 GIVEN I need to sample a potential employee's previous work <br>
 - WHEN I load their portfolio
@@ -30,6 +30,6 @@ GIVEN I need to sample a potential employee's previous work <br>
 - WHEN I resize the page or view the site on various screens and devices
   - THEN I am presented with a responsive layout that adapts to my viewport  ✅
   
-  # Images
+ ## Landing Page Image
   
   ![Professional Portfolio Landing Page](https://github.com/JohanBotes/jb-SMU02-ProfessionalPortfolio/blob/main/ProfessionalPortfolioProjectImage01.png)
