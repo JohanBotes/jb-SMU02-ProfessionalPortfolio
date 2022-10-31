@@ -1,4 +1,4 @@
-# jb-SMU02-ProfessionalPortfolio HTML CSS
+# 02 - Professional Portfolio HTML CSS
 
 A portfolio of work showcase ones skills and talents to employers and/or prospective customers. <br><br>
 An effective portfolio highlights ones strongest work as well as the thought processes behind it. <br><br>
