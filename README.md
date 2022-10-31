@@ -3,7 +3,7 @@
 A portfolio of work showcase ones skills and talents to employers and/or prospective customers. <br><br>
 An effective portfolio highlights ones strongest work as well as the thought processes behind it. <br><br>
 Having portfolios with deployed web applications (meaning they are live on the web) are typically very successful in career search. _This last point can't be stressed enough:_ **having several deployed projects is a minimum requirement to receive an initial interview at many companies**.<br><br>
-Live web URL: [Professional Portfolio](
+Live web URL: [Professional Portfolio Landing Page](https://johanbotes.github.io/jb-SMU02-ProfessionalPortfolio/)
 
 
 ## Task
