@@ -74,7 +74,27 @@ header  {
     color: rgba(0, 247, 251, 0.902);
     border-bottom: 2px solid rgba(0, 247, 251, 0.902);
   }
- 
+
+.resume-button:hover  {
+  color: rgb(47, 45, 58);
+  background-color:rgba(0, 247, 251, 0.902);
+}
+
+.resume-button  {
+  color: rgba(0, 247, 251, 0.902);
+  padding: 10px;
+  background-color:rgb(47, 45, 58);
+  margin-left: 20px;
+  border: 2px solid rgb(47, 45, 58);
+  border-bottom: 2px solid rgba(0, 247, 251, 0.902);
+}
+
+.modal-container    {
+  padding: 40px;
+  color:rgb(47, 45, 58);
+  border-radius: 5px;
+}
+
 .topnav {
       flex-direction:row;
       flex-wrap: wrap;
@@ -190,6 +210,7 @@ section.grid-container2 {
   width: 100%;
   height: auto;
   border: 5px solid rgba(0, 247, 251, 0.902);
+  transition: transform .1s;
 }
 
 .HoriseonContainer .HBtn {
@@ -206,6 +227,10 @@ section.grid-container2 {
   border: none;
   cursor: pointer;
   text-align: left;
+}
+
+.Horiseon:hover {
+  transform: scale(1.1);
 }
 
 .smaller    {
