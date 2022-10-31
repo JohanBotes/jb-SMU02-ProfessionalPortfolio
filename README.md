@@ -10,6 +10,10 @@ AS AN employer
 - I WANT to view a potential employee's deployed portfolio of work samples
   - SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
+# Additional Functionality added - Outside of what was requested
+
+- Modal linked to Resume top meny item
+
 # Acceptance Criteria
 
 GIVEN I need to sample a potential employee's previous work <br>
