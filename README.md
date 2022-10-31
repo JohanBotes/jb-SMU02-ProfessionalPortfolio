@@ -28,4 +28,4 @@ GIVEN I need to sample a potential employee's previous work <br>
   
   # Images
   
-  ![Professional Portfolio Landing Page]()
+  ![Professional Portfolio Landing Page](https://github.com/JohanBotes/jb-SMU02-ProfessionalPortfolio/blob/main/ProfessionalPortfolioProjectImage01.png)
