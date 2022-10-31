@@ -444,16 +444,30 @@ footer.grid-container3 {
   font-size: 40px;
 }
 
-#f1, #f2    {
-  text-align: center;
-  padding-top: 30px;
-  line-height: 1.5;
-  color: rgb(47, 45, 58);
-  font-weight: bold;
-  font-size: 18px;
+.detailsFlexContainer   {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-  /* Responsive layout - makes a two column-layout instead of four columns */
+.footerBold   {
+  font-weight: bold;
+}
+
+#f1   {
+  text-align: center;
+  line-height: 2.0;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footerLinks    {
+  text-decoration: none;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
